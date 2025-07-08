@@ -28,7 +28,7 @@ public abstract class CartaoEntity {
     private String statusCartao;
     @ManyToOne(optional = false)
     @JoinColumn(name = "conta_id", nullable = false)
-    private ContaEntity conta;
+    private ContaCorrenteEntity conta;
 
     public void ativar() {
         setStatusCartao("ATIVO");

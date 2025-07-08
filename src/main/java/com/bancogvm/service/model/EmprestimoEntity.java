@@ -41,5 +41,5 @@ public class EmprestimoEntity {
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "conta_credito_id")
-    private ContaEntity contaCredito;
+    private ContaCorrenteEntity contaCredito;
 }

@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://dpg-d0ainq0dl3ps73ebi1sg-a.oregon-postgres.render.com:5432/wefit
-    username: wefit_user
-    password: 26owWLC0XoIN7KqS6S5PIZY0PS4Utoek
+    url: jdbc:postgresql://dpg-d1moroili9vc73cl7ppg-a.oregon-postgres.render.com:5432/pin1_wlq9
+    username: pin1_wlq9_user
+    password: XONQn5f5UT18Fu3CIPodOQX9K12Xfeh5
     driver-class-name: org.postgresql.Driver
 
   jpa:
